@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: userservice
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      config:
+        file-extension: yaml
+#        namespace: 84f3c100-73e0-4c0e-97e3-7d2d938af894
+#      discovery:
+#        namespace: 84f3c100-73e0-4c0e-97e3-7d2d938af894
